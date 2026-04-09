@@ -26,6 +26,8 @@ class AuthService {
   }
 
   Future<void> changePassword(String newPassword) async {
-    await _auth.currentUser?.updatePassword(newPassword);
+    final user = _auth.currentUser;
+    if (user == null) throw FirebaseAuthException(code: 'no-current-user');
+    await user.updatePassword(newPassword);
   }
 }
