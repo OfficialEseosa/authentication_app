@@ -59,6 +59,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
         return 'Please enter a valid email address.';
       case 'weak-password':
         return 'Password is too weak. Use at least 6 characters.';
+      case 'too-many-requests':
+        return 'Too many attempts. Please try again later.';
       default:
         return 'Registration failed. Please try again.';
     }
