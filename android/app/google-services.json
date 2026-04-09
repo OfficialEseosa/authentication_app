@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "938250837519",
+    "project_id": "authflow-csc4360",
+    "storage_bucket": "authflow-csc4360.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938250837519:android:ad233ebd5e88f48f0ccd7a",
+        "android_client_info": {
+          "package_name": "com.example.authentication_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiTZGtXDwHicHcvR1ZTkuZwU890M9mJjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

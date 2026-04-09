@@ -34,19 +34,20 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_ANDROID_API_KEY',
-    appId: 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+    apiKey: 'AIzaSyBiTZGtXDwHicHcvR1ZTkuZwU890M9mJjQ',
+    appId: '1:938250837519:android:ad233ebd5e88f48f0ccd7a',
+    messagingSenderId: '938250837519',
+    projectId: 'authflow-csc4360',
+    storageBucket: 'authflow-csc4360.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_IOS_API_KEY',
-    appId: 'YOUR_IOS_APP_ID',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+    apiKey: 'AIzaSyCf58mI0ZNyYwxd5wNVrz8c4AmSPQYgwAE',
+    appId: '1:938250837519:ios:6245cc38337564bf0ccd7a',
+    messagingSenderId: '938250837519',
+    projectId: 'authflow-csc4360',
+    storageBucket: 'authflow-csc4360.firebasestorage.app',
     iosBundleId: 'com.example.authenticationApp',
   );
+
 }
