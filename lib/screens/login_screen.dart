@@ -57,6 +57,8 @@ class _LoginScreenState extends State<LoginScreen> {
         return 'Incorrect email or password.';
       case 'invalid-email':
         return 'Please enter a valid email address.';
+      case 'user-disabled':
+        return 'This account has been disabled.';
       case 'too-many-requests':
         return 'Too many attempts. Please try again later.';
       default:
